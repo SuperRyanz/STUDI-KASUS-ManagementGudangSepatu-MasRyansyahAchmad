@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "c:\\Users\\ryans\\Downloads\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0\\mysql-connector-j-8.3.0.jar",
+            "c:\\Users\\ryans\\Downloads\\jar_files\\gson-2.8.2.jar"
+        ],
+        "exclude": [
+            "c:\\Users\\ryans\\AppData\\Local\\Microsoft\\Windows\\INetCache\\IE\\1JRKV0SP\\mysql-connector-j-8.3.0[1].jar"
+        ]
+    }
+}

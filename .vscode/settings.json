@@ -1,0 +1,10 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\ryans\\Downloads\\jar_files\\gson-2.8.2.jar"
+    ],
+    "java.project.sourcePaths": [
+        "MANAGEMENT TOKO SEPATU/src",
+        "MANAGEMENT TOKO SEPATU/data"
+    ]
+}
