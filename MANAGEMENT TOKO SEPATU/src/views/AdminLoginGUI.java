@@ -24,10 +24,21 @@ public class AdminLoginGUI extends JFrame {
 
         // Load the background image
         BufferedImage backgroundImage = null;
-        try {
-            backgroundImage = ImageIO.read(new File("C:\\Users\\ryans\\Downloads\\Desain tanpa judul (1).png"));
-        } catch (IOException e) {
-            e.printStackTrace();
+        String[] imagePaths = {
+            "assets/background.png",
+            "resources/background.png",
+            "images/background.png"
+        };
+        
+        for (String imagePath : imagePaths) {
+            try {
+                backgroundImage = ImageIO.read(new File(imagePath));
+                if (backgroundImage != null) {
+                    break;
+                }
+            } catch (IOException e) {
+                // Try next path
+            }
         }
 
         // Set the background image
